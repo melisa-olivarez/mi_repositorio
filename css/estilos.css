@@ -1,0 +1,131 @@
+header {
+  margin-bottom: 30px; }
+  header div h1 {
+    color: #FFFFFF;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: medium;
+    padding: 30px;
+    margin-bottom: 0px; }
+  header .nav {
+    background: linear-gradient(to right, #0078FF, #1BFF81);
+    width: 100%;
+    margin-top: 0px; }
+    header .nav .nav-link {
+      color: black;
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      margin: 0px 0px;
+      justify-content: space-around; }
+    header .nav .nav-link:hover {
+      color: white; }
+
+@media only screen and (max-width: 400px) {
+  header {
+    margin-bottom: 30px; }
+    header div h1 {
+      color: #FFFFFF;
+      background-color: #000000;
+      width: 100%;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      font-size: 25px;
+      padding: 20px;
+      margin-bottom: 0px; }
+    header .nav {
+      background: linear-gradient(to right, #0078FF, #1BFF81);
+      width: 100%;
+      margin-top: 0px; }
+      header .nav .nav-link {
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin: 0px 0px; }
+      header .nav .nav-link:hover {
+        color: white; } }
+
+.encabezado {
+  padding: 0px 50px;
+  margin-bottom: 30px; }
+  .encabezado .encabezado_titulo {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: medium;
+    font-size: 30px;
+    background-color: #FCE4FF;
+    border-radius: 20px;
+    width: 465px; }
+  .encabezado .encabezado_cuerpo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 20px; }
+
+@media only screen and (max-width: 400px) {
+  .encabezado {
+    padding: 0px 20px;
+    margin-bottom: 30px; }
+    .encabezado .encabezado_titulo {
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      font-weight: medium;
+      font-size: 15px;
+      background-color: #FCE4FF;
+      border-radius: 20px;
+      width: 230px; }
+    .encabezado .encabezado_cuerpo {
+      font-family: 'Poppins', sans-serif;
+      font-weight: lighter;
+      font-size: 15px; } }
+
+div .card {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+@media only screen and (max-width: 400px) {
+  div .card {
+    margin-left: 40px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif; } }
+
+hr {
+  margin: 20px 0px; }
+
+footer {
+  text-align: center;
+  font-family: 'Roboto', sans-serif; }
+  footer .grillaFooter {
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    justify-content: center;
+    margin-bottom: 0px; }
+
+section ul li div {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  align-items: flex-start; }
+  section ul li div div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 50px; }
+    section ul li div div .btn {
+      margin-left: 0px; }
+
+section div form .form-row {
+  margin-top: 50px; }
+
+section div form .form-group {
+  margin-top: 20px; }
+
+section div button {
+  margin-left: 1040px; }
+
+section ul {
+  font-family: 'Poppins', sans-serif; }
