@@ -59,7 +59,7 @@ header {
     font-size: 30px;
     background-color: #FCE4FF;
     border-radius: 20px;
-    width: 465px; }
+    width: 250px; }
   .encabezado .encabezado_cuerpo {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
@@ -90,6 +90,7 @@ div .card {
 @media only screen and (max-width: 400px) {
   div .card {
     margin-left: 40px;
+    margin-right: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif; } }
 
@@ -125,7 +126,7 @@ section div form .form-group {
   margin-top: 20px; }
 
 section div button {
-  margin-left: 1040px; }
+  margin-left: 0px; }
 
 section ul {
   font-family: 'Poppins', sans-serif; }
